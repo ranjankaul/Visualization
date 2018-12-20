@@ -70,7 +70,7 @@ class Visualizer(object):
         self.start()
 
 
-# Start event loop.
-if __name__ == '__main__':
-    v = Visualizer()
+
+if __name__ == '__main__':                                                    # Start event loop.
+    v = Visualizer()                 
     v.animation()
